@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joshua's Personal Website</title>
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@300,301,400,401,500,501,700,701,900,901&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="header__nav">
+          <a href="./" data-testid="slackDisplayName">theunbender</a>
+          <div class="date">
+            <span data-testid="currentDay">Monday</span>
+            <span data-testid="currentTimeUTC">22:00:34</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="wrapper">
+          <img
+            src="assets/img/slack-dp.jpg"
+            data-testid="slackProfilePicture"
+            alt="Slack Profile Picture"
+          />
+          <h1>Hello!👋 I am Joshua, a Frontend Developer based in Nigeria</h1>
+          <p>I help bring great ideas to life through code</p>
+          <a href="#about-me" class="btn">About Me</a>
+        </div>
+      </section>
+
+      <section id="about-me" class="about-me">
+        <div class="wrapper">
+          <h2>About Me</h2>
+          <div class="about-me__text">
+            <p>
+              Hello! 👋 I'm Joshua Emmanuel. Welcome to my personal website.
+            </p>
+            <p>
+              I'm on a journey to becoming a better frontend developer, with a
+              focus on mastering React. Over the next two years, my main goal is
+              to upgrade my skills in React and advance from a beginner to a
+              junior/mid-level frontend developer.
+            </p>
+            <p>
+              To start this journey, I'm participating in the
+              <a
+                data-testid="hngLink"
+                href="https://hng.tech/learn"
+                target="_blank"
+              >
+                HNG Internship Program</a
+              >, and through my participation in this program, I hope to
+              understand my strengths and areas where I need to improve on.
+            </p>
+            <p>
+              Alongside improving my React skills, I plan to learn some backend
+              development with Node.js once I achieve a solid foundation in
+              React. This will equip me with a more comprehensive understanding
+              of web development
+            </p>
+            <p>
+              Thank you for visiting my website. I look forward to connecting
+              and sharing my progress with you.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer__links">
+          <a data-testid="slackEmail" href="mailto:joshuaemmanuel925@gmail.com"
+            >joshuaemmanuel925@gmail.com</a
+          >
+          <a
+            data-testid="keywordLink"
+            href="https://keyword.dog/"
+            target="_blank"
+            >keyword.dog</a
+          >
+          <a
+            data-testid="scrapeanywebLink"
+            href="https://scrapeanyweb.site/"
+            target="_blank"
+            >scrapeanyweb.site</a
+          >
+        </div>
+        <p>copyright &copy; 2024</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
